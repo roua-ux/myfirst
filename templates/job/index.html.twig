@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello JobController!{% endblock %}
+
+{% block body %}
+<div class="row w-50 ml-auto mr-auto" >
+            <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem;">
+              <img src="https://www.tunisienumerique.com/wp-content/uploads/steg23.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                <p class="card-text">Societe Tunisienne de l'ectricitr et du Gaz</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSff9adRTmg2MR9qhasqK5a2sIPhgHLzc8Qkg&usqp=CAU" class="card-img-top" alt="">
+                <div class="card-body">
+                  <p class="card-text">Societe interBancaire de Telecompensation</p>
+                </div>
+              </div>
+            </div>
+            </div>  
+
+            <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem;">
+                <img src="data:image/png;base64,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" class="card-img-top" alt="">
+                <div class="card-body">
+                <p class="card-text">Business Information Technology Solution</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.tunisienumerique.com/wp-content/uploads/2020/07/tunisair-1-1200x859.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                <p class="card-text">tunisair</p>
+                </div>
+              </div>
+            </div>
+          </div>
+<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+{% endblock %}
