@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        
+   <title></title>
+        
+    </head>
+    <body> 
+    
+{% extends 'base.html.twig' %}
+{% block sidebar %}
+<ul class="nav flex-column">
+  {% if item.nomjob == "Developpeur web" %}
+     <p style="color:#FF0000";>Developpeur web</p>
+    {% endif %}
+</ul>
+
+ {% endblock %}
+ 
+    </body>
+    </html>
